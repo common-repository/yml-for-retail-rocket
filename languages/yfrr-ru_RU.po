@@ -1,0 +1,428 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2019-02-14 18:58+0300\n"
+"PO-Revision-Date: 2019-03-19 21:32+0800\n"
+"Last-Translator: \n"
+"Language-Team: aleksandrx\n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2.1\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-SearchPath-0: export.php\n"
+"X-Poedit-SearchPath-1: functions.php\n"
+"X-Poedit-SearchPath-2: offer.php\n"
+"X-Poedit-SearchPath-3: yml-for-retail-rocket.php\n"
+
+#: export.php:198
+msgid "Exporter Retail Rocket"
+msgstr "Экспортер Retail Rocket"
+
+#: yml-for-retail-rocket.php:147 yml-for-retail-rocket.php:184
+msgid "Integration setup"
+msgstr "Настройка интеграции"
+
+#: yml-for-retail-rocket.php:188 yml-for-retail-rocket.php:192
+msgid "Partner ID"
+msgstr "ID партнера"
+
+#: yml-for-retail-rocket.php:185
+msgid "Installation of tracking codes for Retail Rocket."
+msgstr "Установка трекер-кодов системы Retail Rocket."
+
+#: yml-for-retail-rocket.php:217
+msgid "Recommendations for the search query"
+msgstr "Рекомендации к поисковому запросу"
+
+#: yml-for-retail-rocket.php:219
+msgid "Add tracker code recommendations to the search query"
+msgstr "Добавить трекер-код рекомендаций к поисковому запросу"
+
+#: yml-for-retail-rocket.php:220
+msgid "If the user within the framework of the visit was looking for products using an internal site search, but did not switch to product cards, then after a while he will receive an email with search recommendations. You must enable Email campaigns Recommendations for the search query in your personal account Retail Rcket."
+msgstr "Если пользователь в рамках визита искал товары с помощью внутреннего поиска сайта, но не переходил в карточки товаров, то через некоторое время он получит письмо с поисковыми рекомендациями. Нужно включить Email кампании Рекомендации к поисковому запросу в личном кабинете Retail Rcket."
+
+#: yml-for-retail-rocket.php:236
+msgid "Product Viewer Tracker. Template meta.php"
+msgstr "Трекер просмотра карточки товара. Шаблон meta.php"
+
+#: yml-for-retail-rocket.php:237
+msgid "Tracker add products to the cart. Templates simple.php and add-to-cart.php"
+msgstr "Трекер добавления товаров в корзину. Шаблоны simple.php и add-to-cart.php"
+
+#: yml-for-retail-rocket.php:238
+msgid "Tracker add products to cart for options. Template variation-add-to-cart-button.php"
+msgstr "Трекер добавления товаров в корзину для вариативных товаров. Шаблон variation-add-to-cart-button.php"
+
+#: yml-for-retail-rocket.php:239
+msgid "Transaction tracker & Email collection tracker. Template thankyou.php"
+msgstr "Трекер совершения транзакции и Трекер сбора email. Шаблон thankyou.php"
+
+#: yml-for-retail-rocket.php:495
+msgid "Integration settings have been saved"
+msgstr "Настройки интеграции были сохранены"
+
+#: yml-for-retail-rocket.php:200 yml-for-retail-rocket.php:204
+msgid "Tracking Codes"
+msgstr "Трекер-коды"
+
+#: yml-for-retail-rocket.php:248
+msgid "Attention, not all system tracking codes have been added to your site, since your theme has redefined the templates of the WooCommerce plugin. To avoid mistakes, manually add the tracking code to the templates below."
+msgstr "Внимание, не все трекер-коды были добавлены на ваш сайт, так как ваша тема переопределила шаблоны плагина WooCommerce. Чтобы избежать ошибок, добавьте вручную трекер-коды  в шаблоны ниже."
+
+#: yml-for-retail-rocket.php:249
+msgid "Not added tracking codes"
+msgstr "Не добавленные трекер-коды"
+
+#: yml-for-retail-rocket.php:260
+msgid "Additional Information"
+msgstr "Дополнительная информация"
+
+#: yml-for-retail-rocket.php:261
+msgid "The email collection tracker can be installed in any form of the site where the user can leave his email. To do this, add an attribute to the html form element (for example, to the input element):"
+msgstr "Трекер сбора email можно устанавливать в любые формы сайта, в которых пользователь может оставить свою электронную почту. Для этого к html элементу формы (например, к элементу <input>) необходимо добавить атрибут:"
+
+#: yml-for-retail-rocket.php:263
+msgid "Important: send e-mail only to those users who explicitly allowed to send them letters."
+msgstr "Важно: передавайте e-mail только тех пользователей, кто явно разрешил отправлять им письма."
+
+#: yml-for-retail-rocket.php:207
+msgid "All tracking codes of the Retail Rocket system will be added to your site. Do not forget to specify the partner ID above."
+msgstr "Все трекер-коды системы Retail Rocket будут добавлены на ваш сайт. Не забудьте добавить ID партнера выше."
+
+#: yml-for-retail-rocket.php:194
+msgid "Enter your partner ID, for example <code>553644e61e994715XXXXXXXX</code>"
+msgstr "Введите ваш идентификатор партнера, например <code>553644e61e994715XXXXXXXX</code>"
+
+#: yml-for-retail-rocket.php:206
+msgid "Add tracking system codes to the site"
+msgstr "Добавить трекер-коды системы на сайт"
+
+#: export.php:201
+msgid "For the plugin to function correctly, you need a version of WooCommerce 3.0 and higher! You have version"
+msgstr "Для правильной работы плагина необходима версия WooCommerce 3.0 и выше! У Вас установлена версия"
+
+#: export.php:201
+msgid " installed. Please, update WooCommerce"
+msgstr " Пожалуйста, обновите WooCommerce"
+
+#: export.php:201 yml-for-retail-rocket.php:248
+msgid "Learn More"
+msgstr "Подробнее"
+
+#: export.php:206
+msgid "Most likely, the plugin does not work correctly because you turned off the CRON with the help of the"
+msgstr "Скорее всего,плагин работает неправильно, потому что вы выключили CRON при помощи"
+
+#: export.php:215
+msgid "Main parameters"
+msgstr "Основные параметры"
+
+#: export.php:218
+msgid "Automatic file creation"
+msgstr "Автоматическое создание файла"
+
+#: export.php:221
+msgid "Off"
+msgstr "Отключено"
+
+#: export.php:222
+msgid "Hourly"
+msgstr "Раз в час"
+
+#: export.php:223
+msgid "Every six hours"
+msgstr "Каждые 6 часов"
+
+#: export.php:224
+msgid "Twice a day"
+msgstr "2 раза в день"
+
+#: export.php:225
+msgid "Daily"
+msgstr "Раз в день"
+
+#: export.php:227
+msgid "The refresh interval on your feed"
+msgstr "Интервал обновления вашего фида"
+
+#: export.php:231
+msgid "Update feed when updating products"
+msgstr "Обновить фид при обновлении карточки товара"
+
+#: export.php:237
+msgid "Keep logs"
+msgstr "Вести логи"
+
+#: export.php:240
+msgid "Do not check this box if you are not a developer"
+msgstr "Не устанавливайте этот флажок, если вы не разработчик"
+
+#: export.php:244 export.php:251
+msgid "Whot export"
+msgstr "Что экспортировать"
+
+#: export.php:247
+msgid "Simple & Variable products"
+msgstr "Вариативные и обычные товары"
+
+#: export.php:248
+msgid "Only simple products"
+msgstr "Только обычные товары"
+
+#: export.php:255
+msgid "Description of the product"
+msgstr "Описание товара"
+
+#: export.php:258
+msgid "Excerpt description"
+msgstr "Краткое описание"
+
+#: export.php:259
+msgid "Full description"
+msgstr "Полное описание"
+
+#: export.php:261
+msgid "The source of the description"
+msgstr "Источник описания товара"
+
+#: export.php:266
+msgid "Shop name"
+msgstr "Название магазина"
+
+#: export.php:269 export.php:276
+msgid "Required element"
+msgstr "Обязательный элемент"
+
+#: export.php:269
+msgid "The short name of the store should not exceed 20 characters"
+msgstr "Короткое название магазина, должно содержать не более 20 символов"
+
+#: export.php:273
+msgid "Company name"
+msgstr "Наименование компании"
+
+#: export.php:276
+msgid "Full name of the company that owns the store"
+msgstr "Полное наименование компании, владеющей магазином"
+
+#: export.php:342
+msgid "No"
+msgstr "Нет"
+
+#: export.php:341
+msgid "Yes"
+msgstr "Да"
+
+#: export.php:344 export.php:356 export.php:368 export.php:379 export.php:335
+msgid "Extra options"
+msgstr "Дополнительные параметры"
+
+#: export.php:280
+msgid "Step of export"
+msgstr "Шаг экспорта"
+
+#: export.php:293
+msgid "The value affects the speed of file creation"
+msgstr "Значение влияет на скорость создания YML фида"
+
+#: export.php:293
+msgid "If you have any problems with the generation of the file - try to reduce the value in this field"
+msgstr "Если у вас возникли проблемы с генерацией файла - попробуйте уменьшить значение в данном поле"
+
+#: export.php:293
+msgid "More than 500 can only be installed on powerful servers"
+msgstr "Более 500 можно устанавливать только на мощных серверах"
+
+#: export.php:297
+msgid "Skip missing products"
+msgstr "Исключать товары которых нет в наличии"
+
+#: export.php:297
+msgid "except for products for which a pre-order is permitted"
+msgstr "за исключением товаров, для которых разрешен предварительный заказ"
+
+#: export.php:303
+msgid "Skip backorders products"
+msgstr "Исключать из фида товары для предзаказа"
+
+#: export.php:338
+msgid "Old price"
+msgstr "Старая цена"
+
+#: export.php:344
+msgid "In oldprice indicates the old price of the goods, which must necessarily be higher than the new price (price)"
+msgstr "В oldprice указывается старая цена товара, которая обязательно должна быть выше новой цены (price)"
+
+#: export.php:351 export.php:363
+msgid "None"
+msgstr "Нет"
+
+#: export.php:348
+msgid "Model"
+msgstr "Модель"
+
+#: export.php:360
+msgid "Vendor"
+msgstr "Производитель"
+
+#: export.php:372
+msgid "Include these attributes in the values Param"
+msgstr "Включить эти атрибуты в фид"
+
+#: export.php:390 yml-for-retail-rocket.php:270
+msgid "Save"
+msgstr "Сохранить"
+
+#: export.php:391 yml-for-retail-rocket.php:271
+msgid "Click to save the settings"
+msgstr "Нажмите, чтобы сохранить настройки"
+
+#: export.php:403
+msgid "Generate your 1st YML feed!"
+msgstr "Создайте ваш 1-й YML фид!"
+
+#: export.php:404
+msgid "In order to do that, select another menu entry (which differs from \"off\") in the box called \"Automatic file creation\". You can also change values in other boxes if necessary, then press \"Save\"."
+msgstr "Для этого в поле \"Автоматическое создание файла\" выставите значение, отличное от значения \"отключено\", при необходимости измените значение других полей и нажмите \"Сохранить\"."
+
+#: export.php:405
+msgid "After 1-7 minutes (depending on the number of products), the feed will be generated and a link will appear instead of this message."
+msgstr "Через 1 - 7 минут (зависит от числа товаров), фид будет сгенерирован и вместо данного сообщения появится ссылка."
+
+#: export.php:408
+msgid "We are working on automatic file creation for Retail Rocket. YML will be developed soon."
+msgstr "Идет автоматическое создание файла для Retail Rocket. Yml-фид в скором времени будет создан."
+
+#: export.php:410
+msgid "Link to your feed"
+msgstr "Ссылка на ваш фид"
+
+#: export.php:411
+msgid "Your YML feed here"
+msgstr "Ваш фид здесь"
+
+#: export.php:412
+msgid "Generated"
+msgstr "Сгенерирован"
+
+#: export.php:414
+msgid "By clicking on \"Save\" you will overwrite the upload file for Retail Rocket."
+msgstr "Нажав «Сохранить», вы перезапишете YML для Retail Rocket."
+
+#: export.php:417
+msgid "Please note that Retail Rocket checks YML every 3-4 hours! This means that the changes on the Retail Rocket are not instantaneous!"
+msgstr "Обратите внимание, что Retail Rocket проверяет YML раз в 3-4 часа! Это означает, что изменения на Retail Rocket не мгновенны!"
+
+#: export.php:423
+msgid "Please support the project!"
+msgstr "Пожалуйста, поддержите проект!"
+
+#: export.php:424
+msgid "Thank you for using the plugin"
+msgstr "Спасибо за использование плагина"
+
+#: export.php:425
+msgid "If this plugin useful to you, please support the project one way"
+msgstr "Если этот плагин полезен вам, пожалуйста, поддержите проект"
+
+#: export.php:427
+msgid "Add your review"
+msgstr "Добавьте отзыв на странице плагина"
+
+#: export.php:428
+msgid "Support the project financially. Even $2 is a help!"
+msgstr "Поддержите проект деньгами. Даже 100 рублей - это помощь!"
+
+#: export.php:428
+msgid "Donate now"
+msgstr "Поддержать проект"
+
+#: export.php:429
+msgid "Noticed a mistake or a problem?"
+msgstr "Заметили ошибку или есть проблема?"
+
+#: export.php:429
+msgid "Get support"
+msgstr "Получите поддержку"
+
+#: export.php:435 export.php:438
+msgid "Reset plugin settings"
+msgstr "Сбросить настройки плагина"
+
+#: export.php:436
+msgid "Reset plugin settings can be useful in the event of a problem"
+msgstr "Сброс настроек плагина может быть полезен в случае возникновения проблем"
+
+#: export.php:309
+msgid "Export only"
+msgstr "Экспортировать только"
+
+#: export.php:309
+msgid "Exclude"
+msgstr "Исключить"
+
+#: export.php:309
+msgid "products from these categories"
+msgstr "товары из этих категорий"
+
+#: export.php:312
+msgid "Category"
+msgstr "Категории"
+
+#: export.php:323
+msgid "Exclude products without a main image"
+msgstr "Исключить товары без основного изображения"
+
+#: export.php:326
+msgid "If checked, products without a main image will not be included in the feed."
+msgstr "Если отмечено, товары без основного изображения не будут включены в фид."
+
+#: yml-for-retail-rocket.php:144
+msgid "Export Retail Rocket"
+msgstr "Экспорт Retail Rocket"
+
+#: yml-for-retail-rocket.php:447
+msgid "WooCommerce is not active!"
+msgstr "Для работы плагина Yml for Retail Rocket требуется плагин WooCommerce!"
+
+#: yml-for-retail-rocket.php:462
+msgid "Progress"
+msgstr "Прогресс"
+
+#: yml-for-retail-rocket.php:462
+msgid "from"
+msgstr "из"
+
+#: yml-for-retail-rocket.php:462
+msgid "products"
+msgstr "товаров"
+
+#: yml-for-retail-rocket.php:462
+msgid "If the progress indicators have not changed within 20 minutes, try reducing the \"Step of export\" in the plugin settings"
+msgstr "Если индикаторы прогресса не изменились в течение 20 минут, попробуйте уменьшить \"Шаг экспорта\" в настройках плагина"
+
+#: yml-for-retail-rocket.php:464
+msgid "Prior to the completion of less than 70 seconds"
+msgstr "До завершения менее 70 секунд"
+
+#: yml-for-retail-rocket.php:466
+msgid "We are working on automatic file creation for Retail Rocket. YML will be developed soon"
+msgstr "Идет автоматическое создание файла для Retail Rocket. Yml-фид в скором времени будет создан"
+
+#: yml-for-retail-rocket.php:471
+msgid "Creating the feed is running. You can continue working with the website"
+msgstr "Создание YML-фида запущено. Вы можете продолжить работу с сайтом"
+
+#: yml-for-retail-rocket.php:473
+msgid "Updated"
+msgstr "Обновлено"
+
+#: yml-for-retail-rocket.php:476
+msgid "The settings have been reset"
+msgstr "Настройки были сброшены"
